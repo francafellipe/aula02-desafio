@@ -1,9 +1,7 @@
 // Funções para cálculos
 function calcularAreaTriangulo() {
     alert("Função para calcular a área de um triângulo.");
-    
-    // Adicione seu código para calcular a área de um triângulo aqui
-    // Por exemplo, pedir ao usuário para fornecer a base e a altura
+
     var base = prompt("Informe a base do triângulo:");
     var altura = prompt("Informe a altura do triângulo:");
     
@@ -16,9 +14,6 @@ function calcularAreaTriangulo() {
 
 function calcularAreaRetangulo() {
     alert("Função para calcular a área de um retângulo.");
-    
-    // Adicione seu código para calcular a área de um retângulo aqui
-    // Por exemplo, pedir ao usuário para fornecer o comprimento e a largura
     var comprimento = prompt("Informe o comprimento do retângulo:");
     var largura = prompt("Informe a largura do retângulo:");
     
@@ -31,9 +26,6 @@ function calcularAreaRetangulo() {
 
 function calcularVolumeCubo() {
     alert("Função para calcular o volume de um cubo.");
-    
-    // Adicione seu código para calcular o volume de um cubo aqui
-    // Por exemplo, pedir ao usuário para fornecer o comprimento da aresta
     var aresta = prompt("Informe o comprimento da aresta do cubo:");
     
     // Calcular o volume do cubo
@@ -45,9 +37,6 @@ function calcularVolumeCubo() {
 
 function calcularAreaCirculo() {
     alert("Função para calcular a área de um círculo.");
-    
-    // Adicione seu código para calcular a área de um círculo aqui
-    // Por exemplo, pedir ao usuário para fornecer o raio
     var raio = prompt("Informe o raio do círculo:");
     
     // Calcular a área do círculo
@@ -64,5 +53,4 @@ document.querySelector(".botao-cubo button").addEventListener("click", calcularV
 document.querySelector(".botao-circulo button").addEventListener("click", calcularAreaCirculo);
 document.querySelector(".botao-sair button").addEventListener("click", function() {
     alert("Sair/Exit");
-    // Adicione qualquer código adicional que você deseja executar ao sair/exit aqui
 });
